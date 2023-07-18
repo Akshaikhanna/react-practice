@@ -1,25 +1,74 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Skills from "./components/Skills";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
 
 function App() {
+  let component;
+  switch (window.location.pathname) {
+    case "/":
+      component = <Home />;
+      break;
+    case "/skill":
+      component = <Skills />;
+      break;
+    case "/contact":
+      component = <Contact />;
+      break;
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <nav className="nav">
+        <h2 className="h2">React Developer</h2>
+        <h3 className="h3">Akshai khanna B </h3> 
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/skill">Skills</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      {component}
+    </>
   );
 }
 
 export default App;
+
+/* <div className="navbar">
+<Navbar bg="dark" data-bs-theme="dark">
+  <img src={Image} width="50" height="45" className="img1" />
+  <Navbar.Brand bg="dark" href="#home" >
+    React Developer
+   
+    Akshai khanna
+  </Navbar.Brand>
+  <Nav class="navbar-nav ms-auto ">
+    <Nav.Link as={Link} to="/">
+Home
+    </Nav.Link>
+
+    <Nav.Link as={Link} to="/skills">
+      
+      Skills
+    </Nav.Link>
+    <Nav.Link as={Link} to="/contact">
+      
+      Contact
+    </Nav.Link>
+  </Nav>
+</Navbar>
+</div>
+<div className="links">
+<Routes>
+  <Route path="/" element={<Home />} />
+ 
+  <Route path="/skills" element={<Skills />} />
+  <Route path="/contact" element={<Contact />} />
+</Routes>
+</div> */

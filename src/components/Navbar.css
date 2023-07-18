@@ -1,0 +1,240 @@
+/* home */
+.img{
+    width: 1519px;
+    height: 600px;
+}
+
+.head{
+    margin-left: 10%;
+}
+
+.para{
+    width: 30%;
+    margin-left: 2%;
+    font-size: 130%;
+}
+
+.pa{
+    width: 40%;
+    margin-left: 58%;
+    margin-top: -17.7%;
+    font-size: 130%
+}
+
+/* ------------------------------------------------------------ */
+
+/* skill */
+.html{
+    width: 10%;
+    margin-top: 1%;
+}
+
+.htmlpara{
+    width: 50%;
+    margin-left: 45%;
+    font-size: 130%;
+    margin-top: -10%;
+}
+
+.htmlpara1{
+    margin-left: 45%;
+    font-size: 130%;
+}
+
+.css{
+    width: 9%;
+    margin-left: 90%;
+    margin-top: 3%;
+}
+
+.csspara{
+    width: 50%;
+    font-size: 130%;
+    margin-top: -9%;
+    margin-left: 2%;
+}
+
+.csspara1{
+    margin-left: 2%;
+    font-size: 130%;
+}
+
+.js{
+    width: 18%;
+    margin-left: -4%;
+    margin-top: 1%;
+}
+
+.jspara{
+    width: 50%;
+    font-size: 130%;
+    margin-top: -9%;
+    margin-left: 45%;
+}
+
+.jspara1{
+    margin-left: 45%;
+    font-size: 130%;
+}
+
+.react{
+    width: 10%;
+    margin-left: 90%;
+    margin-top: 1%;
+}
+
+.reactpara{
+    width: 50%;
+    font-size: 130%;
+    margin-left: 2%;
+    margin-top: -8%;
+}
+
+.reactpara1{
+    font-size: 130%;
+    margin-left: 2%;
+}
+
+/* ------------------------------------------------------------ */
+
+/* contact */
+.h4{
+    margin-left: 80%;
+    font-size: 130%;
+}
+
+.address{
+    margin-left: 80%;
+    font-size: 130%;
+}
+
+.contactpara{
+    margin-left: 80%;
+    font-size: 130%;
+}
+
+.wallpaper{
+    width: 1200px;
+    height: 666px;
+    margin-top: -12.7%;
+    opacity: 0.2;
+}
+
+.link{
+    margin-left: 82%;
+    margin-top: -3%;
+}
+
+.youtube{
+    margin-left: 3%;
+}
+
+.linkedin{
+    margin-left: 3%;
+}
+
+/* ------------------------------------------------------------ */
+/* media query */
+@media screen and (max-width:480px) {
+    .img{
+        width: 1130px;
+    }
+
+    .head{
+        margin-left: 22%;
+    }
+
+    .para{
+        width: 300px;
+        font-size: 200%;
+    }
+
+    .pa{
+        width: 300px;
+        margin-left: 160%;
+        margin-top: -185%;
+        font-size: 200%;
+    }
+
+    .html{
+        width: 150px;
+        margin-top: 5%;
+    }
+
+    .htmlpara{
+        width: 750px;
+        margin-left: 82%;
+        margin-top: -25%;
+    }
+
+    .htmlpara1{
+        margin-left: 82%;
+    }
+
+    .css{
+        width: 150px;
+        margin-top: 5%;
+        margin-left: 200%;
+    }
+    
+    .csspara{
+        width: 750px;
+        margin-top: -30%;
+    }
+
+    .js{
+        width: 300px;
+        margin-top: 5%;
+    }
+
+    .jspara{
+        width: 750px;
+        margin-left: 75%;
+        margin-top: -25%;
+    }
+
+    .jspara1{
+        margin-left: 75%;
+    }
+
+    .react{
+        width: 260px;
+        margin-top: 5%;
+        margin-left: 175%;
+    }
+
+    .reactpara{
+        width: 700px;
+        margin-top: -35%;
+    }
+
+    .wallpaper{
+        width: 700px;
+        margin-top: -65%;
+    }
+
+    .h4{
+        margin-left: 160%;
+    }
+
+    .address{
+        margin-left: 160%;
+        width: 200px;
+    }
+
+    .contactpara{
+        margin-left: 160%;
+    }
+
+    .link{
+        margin-left: 165%;
+        margin-top: -25%;
+    }
+
+    .youtube{
+        margin-left: 19%;
+    }
+}
+
+
+
