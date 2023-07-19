@@ -8,7 +8,7 @@ const Home = () => {
       <img src={code} className="img" />
       <h2 className="head">What I do</h2>
       <p className="para">
-        At present time I'm working as a Web Developer. I design and create
+        I'm Akshai khanna B. I'm working as a Web Developer. I design and create
         various websites. I create many designs for Web Applications and Mobile
         applications. I create the beauty of the site. I'm responsible for the
         site's technical aspects, such as its performance and capacity, which

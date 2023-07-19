@@ -1,240 +1,234 @@
 /* home */
-.img{
-    width: 1519px;
-    height: 600px;
+.img {
+  width: 1519px;
+  height: 600px;
 }
 
-.head{
-    margin-left: 10%;
+.head {
+  margin-left: 10%;
 }
 
-.para{
-    width: 30%;
-    margin-left: 2%;
-    font-size: 130%;
+.para {
+  width: 30%;
+  margin-left: 2%;
+  font-size: 130%;
 }
 
-.pa{
-    width: 40%;
-    margin-left: 58%;
-    margin-top: -17.7%;
-    font-size: 130%
+.pa {
+  width: 40%;
+  margin-left: 58%;
+  margin-top: -17.7%;
+  font-size: 130%;
 }
 
 /* ------------------------------------------------------------ */
 
 /* skill */
-.html{
-    width: 10%;
-    margin-top: 1%;
+.html {
+  width: 10%;
+  margin-top: 1%;
 }
 
-.htmlpara{
-    width: 50%;
-    margin-left: 45%;
-    font-size: 130%;
-    margin-top: -10%;
+.htmlpara {
+  width: 50%;
+  margin-left: 45%;
+  font-size: 130%;
+  margin-top: -10%;
 }
 
-.htmlpara1{
-    margin-left: 45%;
-    font-size: 130%;
+.htmlpara1 {
+  margin-left: 45%;
+  font-size: 130%;
 }
 
-.css{
-    width: 9%;
-    margin-left: 90%;
-    margin-top: 3%;
+.css {
+  width: 9%;
+  margin-left: 90%;
+  margin-top: 3%;
 }
 
-.csspara{
-    width: 50%;
-    font-size: 130%;
-    margin-top: -9%;
-    margin-left: 2%;
+.csspara {
+  width: 50%;
+  font-size: 130%;
+  margin-top: -9%;
+  margin-left: 2%;
 }
 
-.csspara1{
-    margin-left: 2%;
-    font-size: 130%;
+.csspara1 {
+  margin-left: 2%;
+  font-size: 130%;
 }
 
-.js{
-    width: 18%;
-    margin-left: -4%;
-    margin-top: 1%;
+.js {
+  width: 18%;
+  margin-left: -4%;
+  margin-top: 1%;
 }
 
-.jspara{
-    width: 50%;
-    font-size: 130%;
-    margin-top: -9%;
-    margin-left: 45%;
+.jspara {
+  width: 50%;
+  font-size: 130%;
+  margin-top: -9%;
+  margin-left: 45%;
 }
 
-.jspara1{
-    margin-left: 45%;
-    font-size: 130%;
+.jspara1 {
+  margin-left: 45%;
+  font-size: 130%;
 }
 
-.react{
-    width: 10%;
-    margin-left: 90%;
-    margin-top: 1%;
+.react {
+  width: 10%;
+  margin-left: 90%;
+  margin-top: 1%;
 }
 
-.reactpara{
-    width: 50%;
-    font-size: 130%;
-    margin-left: 2%;
-    margin-top: -8%;
+.reactpara {
+  width: 50%;
+  font-size: 130%;
+  margin-left: 2%;
+  margin-top: -8%;
 }
 
-.reactpara1{
-    font-size: 130%;
-    margin-left: 2%;
+.reactpara1 {
+  font-size: 130%;
+  margin-left: 2%;
 }
 
 /* ------------------------------------------------------------ */
 
 /* contact */
-.h4{
-    margin-left: 80%;
-    font-size: 130%;
+.h4 {
+  margin-left: 80%;
+  font-size: 130%;
 }
 
-.address{
-    margin-left: 80%;
-    font-size: 130%;
+.address {
+  margin-left: 80%;
+  font-size: 130%;
 }
 
-.contactpara{
-    margin-left: 80%;
-    font-size: 130%;
+.contactpara {
+  margin-left: 80%;
+  font-size: 130%;
 }
 
-.wallpaper{
-    width: 1200px;
-    height: 666px;
-    margin-top: -12.7%;
-    opacity: 0.2;
+.wallpaper {
+  width: 1200px;
+  height: 666px;
+  margin-top: -12.7%;
+  opacity: 0.2;
 }
 
-.link{
-    margin-left: 82%;
-    margin-top: -3%;
+.link {
+  margin-left: 82%;
+  margin-top: -3%;
 }
 
-.youtube{
-    margin-left: 3%;
+.youtube {
+  margin-left: 3%;
 }
 
-.linkedin{
-    margin-left: 3%;
+.linkedin {
+  margin-left: 3%;
 }
 
 /* ------------------------------------------------------------ */
 /* media query */
-@media screen and (max-width:480px) {
-    .img{
-        width: 1130px;
-    }
+@media screen and (max-width: 480px) {
+  .img {
+    width: 480px;
+    height: 200%;
+  }
 
-    .head{
-        margin-left: 22%;
-    }
+  .head {
+    margin-left: 22%;
+  }
 
-    .para{
-        width: 300px;
-        font-size: 200%;
-    }
+  .para {
+    width: 200px;
+    font-size: 150%;
+  }
 
-    .pa{
-        width: 300px;
-        margin-left: 160%;
-        margin-top: -185%;
-        font-size: 200%;
-    }
+  .pa {
+    width: 200px;
+    margin-top: -153%;
+    font-size: 150%;
+  }
 
-    .html{
-        width: 150px;
-        margin-top: 5%;
-    }
+  .html {
+    width: 150px;
+    margin-top: 1%;
+  }
 
-    .htmlpara{
-        width: 750px;
-        margin-left: 82%;
-        margin-top: -25%;
-    }
+  .htmlpara {
+    width: 200px;
+    margin-top: -30%;
+  }
 
-    .htmlpara1{
-        margin-left: 82%;
-    }
+  .htmlpara1 {
+    margin-top: -1%;
+  }
 
-    .css{
-        width: 150px;
-        margin-top: 5%;
-        margin-left: 200%;
-    }
-    
-    .csspara{
-        width: 750px;
-        margin-top: -30%;
-    }
+  .css {
+    margin-top: 10%;
+    width: 150px;
+    margin-left: 8cm;
+    margin-right: 15%;
+  }
 
-    .js{
-        width: 300px;
-        margin-top: 5%;
-    }
+  .csspara {
+    width: 160px;
+    margin-top: -35%;
+  }
 
-    .jspara{
-        width: 750px;
-        margin-left: 75%;
-        margin-top: -25%;
-    }
+  .js {
+    width: 250px;
+    margin-top: 10%;
+    margin-left: -1.5cm;
+  }
 
-    .jspara1{
-        margin-left: 75%;
-    }
+  .jspara {
+    width: 200px;
+    margin-top: -28%;
+  }
 
-    .react{
-        width: 260px;
-        margin-top: 5%;
-        margin-left: 175%;
-    }
+  .react {
+    width: 150px;
+    margin-left: 8cm;
+    margin-top: 10%;
+  }
 
-    .reactpara{
-        width: 700px;
-        margin-top: -35%;
-    }
+  .reactpara {
+    width: 200px;
+    margin-top: -28%;
+  }
 
-    .wallpaper{
-        width: 700px;
-        margin-top: -65%;
-    }
+  .wallpaper {
+    width: 480px;
+    height: 400px;
+    margin-top: -135%;
+  }
 
-    .h4{
-        margin-left: 160%;
-    }
+  .h4 {
+    margin-top: 90% !important;
+    margin-left: 6%;
+  }
 
-    .address{
-        margin-left: 160%;
-        width: 200px;
-    }
+  .address {
+    margin-left: 2%;
+    width: 200px;
+  }
 
-    .contactpara{
-        margin-left: 160%;
-    }
+  .contactpara {
+    margin-left: 69%;
+    margin-top: -35%;
+  }
 
-    .link{
-        margin-left: 165%;
-        margin-top: -25%;
-    }
-
-    .youtube{
-        margin-left: 19%;
-    }
+  .contactpara1 {
+    margin-left: 69%;
+  }
+  .link {
+    margin-left: 65%;
+  }
 }
-
-
-

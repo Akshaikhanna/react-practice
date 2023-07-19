@@ -19,8 +19,7 @@ function App() {
   return (
     <>
       <nav className="nav">
-        <h2 className="h2">React Developer</h2>
-        <h3 className="h3">Akshai khanna B </h3> 
+        <h4 className="h2">React Developer</h4> 
         <ul>
           <li>
             <a href="/">Home</a>

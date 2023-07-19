@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
       <div >
         <h4 className="contactpara">Contact</h4>
-        <p className="contactpara">
+        <p className="contactpara1">
           <BsTelephoneFill /> &nbsp; 6379044583
         </p>
       </div>

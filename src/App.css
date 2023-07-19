@@ -35,7 +35,7 @@
   list-style: none;
   display: flex;
   gap: 1rem;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .nav li {
@@ -46,7 +46,8 @@
 /* media query */
 @media screen and (max-width:480px) {
   .nav{
-    width: 1130px;
+    width: 480px;
+    height: 50%;
   }
 }
 
