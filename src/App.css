@@ -44,9 +44,9 @@
 
 /* ------------------------------------------------ */
 /* media query */
-@media screen and (max-width:480px) {
+@media screen and (max-width:520px) {
   .nav{
-    width: 480px;
+    width: 520px;
     height: 50%;
   }
 }
